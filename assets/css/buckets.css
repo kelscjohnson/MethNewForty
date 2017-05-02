@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*Kayla's custom CSS that may or may not wrk*/
+
+
 .black {
 	color: black;
 }
@@ -3607,10 +3609,10 @@ h6 {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
-					font-weight: 600;
-					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					/*font-size: 0.7em;*/
+					/*font-weight: 600;*/
+					/*letter-spacing: 0.25em;*/
+					/*text-transform: uppercase;*/
 				}
 
 		#banner.major {
