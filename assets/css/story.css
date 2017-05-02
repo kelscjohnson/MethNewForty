@@ -6,6 +6,7 @@
 .byline {
 	padding-top: -20px;
 	font-size: 80%;
+	color: white;
 }
 
 .pullquote {
@@ -13,28 +14,64 @@
 }
 
 .cutline {
-	
+
 }
 
-.storydiv {
-	margin: 0;
+.white {
+	color: white;
 }
 
-/*p.story {
-	max-width: 80%;
-	margin-left: 7em;
-}*/
 
+.dropcap {
+font-weight: bold;
+ float: left;
+  font-size: 3em;
+  line-height: 1px;
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
 
+.quote {
+font-weight: bold;
+ float: left;
+  font-size: 4em;
+  line-height: 1px;
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.quoteright {
+font-weight: bold;
+ float: right;
+  font-size: 4em;
+  line-height: 1px;
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
 
 .box {
 	font-size: 2em;
 	text-decoration: bold;
 	text-align: right;
-	background-color: black
+	/*background-color: black;*/
 }
 
+/*previous and next story buttons*/
 
+.nextprev {
+    /*background-color: #f1f1f1;*/
+		text-align: right;
+    color: black;
+		/*padding: 8px 16px;*/
+}
+
+/*
+.round {
+    border-radius: 50%;
+}*/
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -59,7 +96,15 @@
 	}
 
 	blockquote, q {
-		quotes: none;
+		quotes: inherit;
+width: 30em;
+margin: 0;
+padding: 20
+float: left;
+font-size:150%;
+font-style:italic;
+}
+
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -1676,9 +1721,6 @@
 		line-height: 1.65;
 	}
 
-  .white {
-    color: white;
-  }
 
 		@media screen and (max-width: 1680px) {
 
@@ -1724,7 +1766,7 @@
 		}
 
 	strong, b {
-		color: black;
+		/*color: black;*/
 		font-weight: 600;
 	}
 
@@ -3535,14 +3577,13 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 20em 0 2em 0 ;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
@@ -3555,6 +3596,8 @@
 		top: -3.25em;
 	}
 
+
+/*banner photo overlay */
 		#banner:after {
 			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
@@ -3568,12 +3611,12 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			/*background-color: #242943;*/
+			background-color: black;
 			content: '';
 			display: block;
-			/*height: 100%;*/
+			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.40;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3658,33 +3701,6 @@
 				opacity: 0.75;
 			}
 
-    #banner.style1:after {
-			background-color: #6fc3df;
-		}
-
-    /*the addicts*/
-
-		#banner.style2:after {
-			background-color: grey;
-		}
-
-    /*repercussions*/
-		#banner.style3:after {
-			background-color: #ec8d81;
-		}
-
-    /*seeking solutions*/
-    #banner.style4:after {
-			background-color: #e7b788;
-		}
-
-		#banner.style5:after {
-			background-color: #8ea9e8;
-		}
-
-		#banner.style6:after {
-			background-color: #87c5a4;
-		}
 
 		body.is-loading #banner:after {
 			opacity: 1.0;
@@ -3783,7 +3799,7 @@
 			}
 
 			#main > * > .inner {
-				padding: 4em 0 4em 0 ;
+				padding: 4em 0 4em 0;
 				margin: 0 auto;
 				max-width: 50em;
 				width: calc(100% - 6em);
@@ -3813,16 +3829,17 @@
 
 /* Footer */
 
-
-
+#footer {
+	background-color: #e6e6e6;
+}
 
 	#footer .copyright {
+		margin: 0;
 		font-size: 0.8em;
 		list-style: none;
 		padding-left: 0;
     text-align: left;
 	}
-
 
 
 	@media screen and (max-width: 480px) {
