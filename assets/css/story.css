@@ -36,6 +36,7 @@ font-weight: bold;
 
 .quote {
 font-weight: bold;
+max-width: 70%;
  float: left;
   font-size: 4em;
   line-height: 1px;
@@ -98,8 +99,7 @@ font-weight: bold;
 	}
 
 	blockquote, q {
-		quotes: inherit;
-width: 30em;
+width: auto;
 margin: 0;
 padding: 20
 float: left;
