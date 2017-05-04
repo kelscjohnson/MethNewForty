@@ -53,10 +53,6 @@ font-style: italic;
 }
 
 
-
-
-
-
 #three {
 	background-color: black;
 	padding: 4em 0 2em 0;
@@ -206,7 +202,7 @@ font-weight: bold;
 	}
 
 	blockquote, q {
-width: auto;
+width: 100%;
 margin: 0;
 padding-left: 1%;
 float: left;
