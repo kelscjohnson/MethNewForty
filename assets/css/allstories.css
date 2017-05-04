@@ -9,11 +9,18 @@
 
 
 /*for captions. Use <strong> around photo credit at the begnning*/
-
 .caption {
 	font-size: .7em;
 padding-top: 0px;
 font-style: italic;
+padding-bottom: 3em;
+}
+
+.captionright {
+	font-size: .7em;
+padding-top: 0px;
+font-style: italic;
+text-align: right;
 }
 
 .bannercaption {
@@ -21,9 +28,20 @@ font-size: .7em;
 margin-left: 10%;
 margin-top: 2%;
 font-style: italic;
+}
 
 
+/*for bio boxes at the end of stories*/
+.col-sm-6 {
+	font-size: .7em;
+	margin: 10px;
+}
 
+
+.bio {
+	background-color: grey;
+	max-width: 70%;
+	padding: 2em;
 }
 
 
