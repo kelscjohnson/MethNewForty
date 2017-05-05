@@ -7,7 +7,7 @@
 
 h3 {
 
-max-width: 65%;
+max-width: 100%;
 
 
 }
@@ -35,7 +35,7 @@ max-width: 65%;
 }
 
 #secondstory {
-	background-color: #e6e6e6;
+	background-color: #f7f7f7;
 }
 
 #thirdstory {
@@ -43,12 +43,13 @@ max-width: 65%;
 }
 
 #fourthstory {
-	background-color: #e6e6e6;
+	background-color: #f7f7f7;
+
 }
 
 #three {
 	background-color: black;
-	padding: 4em 0 2em 0;;
+	padding: 2em 0 1.7em 0;;
 
 }
 
@@ -372,6 +373,8 @@ max-width: 65%;
 
 	@media screen and (max-width: 1680px) {
 
+
+
 		.row > * {
 			padding: 0 0 0 2em;
 		}
@@ -586,6 +589,12 @@ max-width: 65%;
 	}
 
 	@media screen and (max-width: 1280px) {
+
+		h3 {
+
+		max-width: 95%;
+
+		}
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -802,6 +811,12 @@ max-width: 65%;
 
 	@media screen and (max-width: 980px) {
 
+		h3 {
+
+		max-width: 80%;
+
+		}
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -1017,6 +1032,8 @@ max-width: 65%;
 
 	@media screen and (max-width: 736px) {
 
+
+
 		.row > * {
 			padding: 0 0 0 1.25em;
 		}
@@ -1231,6 +1248,12 @@ max-width: 65%;
 	}
 
 	@media screen and (max-width: 480px) {
+
+		h3 {
+
+		max-width: 70%;
+
+		}
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1757,7 +1780,7 @@ max-width: 65%;
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h2, h3, h4, h5 {

@@ -6,6 +6,10 @@
 
 
 
+header.white > :first-child {
+	margin-bottom: 0;
+	width: calc(100% + 0.5em);
+}
 
 
 /*for captions. Use <strong> around photo credit at the begnning*/
@@ -32,36 +36,60 @@ font-style: italic;
 
 
 /*for bio boxes at the end of stories*/
-.bio {
-	background-color: #f4f4f4;
+
+.col-sm-6 {
+	background-color: #fbfbfb;
 	border-style: solid;
-	border-width: .2px;
-	border-color: #d6d6d6;
+	border-width: .05px;
+	border-color: #e7e7e7;
 	max-width: 45%;
 	margin-left: 1em;
 	margin-right: 1em;
-
+	margin-bottom: 1em;
 }
+
 
 .img-circle {
     border-radius: 50%;
-		width: 3em;
+		width: 8em;
+		padding-bottom: 0;
 }
 
 .biop {
 	font-size: .7em;
 	padding-left: .6em;
-	padding-right: 1em;
+	padding-right: 1.6em;
 	padding-top: 2em;
-	padding-bottom: 1em;
+	margin-bottom: 1em;
+
 }
 
+.contactinfo {
+	padding-left: .6em;
+
+			font-weight: 900;
+			font-size: .9em;
+			text-align: left;
+			padding-right: 1.4em;
+			padding-top: .5em;
+		}
+
+
+.name {
+	font-size: 2em;
+	font-weight: 600;
+}
 
 /*for padding above the first heading*/
 
 .headline {
 	padding-top:1.4em;
 }
+
+.headlineabout {
+	padding-top: 0;
+}
+
 
 
 #three {
@@ -2073,6 +2101,7 @@ font-style:italic, bold;
       width: calc(100% + 0.5em);
     }
 
+
 			header.minor > :first-child:after {
 				content: '';
 				background-color: black;
@@ -2089,7 +2118,7 @@ font-style:italic, bold;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
-				width: 100%;
+				width: 70%;
 			}
 
       header.minor > :first-child:after {
