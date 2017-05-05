@@ -3,7 +3,14 @@
 
 /*Kayla's custom CSS that may or may not wrk*/
 
+/*bucket headline test to make it not run off the page*/
 
+h3 {
+
+max-width: 65%;
+
+
+}
 .black {
 	color: black;
 }

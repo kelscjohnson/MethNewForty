@@ -32,18 +32,26 @@ font-style: italic;
 
 
 /*for bio boxes at the end of stories*/
-.col-sm-6 {
-	font-size: .7em;
-	margin: 10px;
-}
 
 
 .bio {
-	background-color: grey;
-	max-width: 70%;
-	padding: 2em;
+	background-color: #ededed;
+	border-style: solid;
+	border-width: .7px;
+	border-color: grey;
+	max-width: 40%;
+	margin-left: 30px;
+	margin-right: 30px;
+
 }
 
+.biop {
+	font-size: .7em;
+	padding-left: .6em;
+	padding-right: 1em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
 
 
 /*for padding above the first heading*/

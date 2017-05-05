@@ -27,6 +27,13 @@
 		line-height: 1;
 	}
 
+
+.headerlogo {
+width: 30%;
+margin-left: 8em;
+}
+
+
 	ol, ul {
 		list-style: none;
 	}
@@ -747,6 +754,12 @@
 
 	@media screen and (max-width: 980px) {
 
+		.headerlogo {
+		width: 40%;
+		margin-left: 8em;
+		}
+
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -962,6 +975,13 @@
 
 	@media screen and (max-width: 736px) {
 
+		.headerlogo {
+		width: 40%;
+		margin-left: 8em;
+		margin-bottom: 2em;
+		}
+
+
 		.row > * {
 			padding: 0 0 0 1.25em;
 		}
@@ -1176,6 +1196,14 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+
+		.headerlogo {
+		width: 70%;
+		margin-left: 3.4em;
+		}
+
+
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -3233,11 +3261,12 @@
 		#header .logo {
 			border: 0;
       color: white;
+			margin-left: 2em;
 			display: inline-block;
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
-			padding: 0 1.5em;
+			/*padding: 0 1.5em 0 0;*/
 		}
 
 			#header .logo strong {
