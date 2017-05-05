@@ -51,8 +51,11 @@ font-style: italic;
 
 .img-circle {
     border-radius: 50%;
-		width: 8em;
-		padding-bottom: 0;
+		width: 10em;
+		vertical-align:middle;
+		padding-bottom: 1em;
+		margin-left: .5em;
+		padding-right: 1em;
 }
 
 .biop {
@@ -60,7 +63,6 @@ font-style: italic;
 	padding-left: .6em;
 	padding-right: 1.6em;
 	padding-top: 2em;
-	margin-bottom: 1em;
 
 }
 
@@ -78,6 +80,18 @@ font-style: italic;
 .name {
 	font-size: 2em;
 	font-weight: 600;
+	/*padding-left: 1em;*/
+	line-height: .5em;
+	padding-bototm: 2em;
+}
+
+.title {
+	padding-top: 1em;
+	font-size: 1em;
+	font-weight: 800;
+	line-height: .2em;
+	padding-bottom: 2em;
+
 }
 
 /*for padding above the first heading*/
