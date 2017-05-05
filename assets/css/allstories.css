@@ -32,17 +32,20 @@ font-style: italic;
 
 
 /*for bio boxes at the end of stories*/
-
-
 .bio {
-	background-color: #ededed;
+	background-color: #f4f4f4;
 	border-style: solid;
-	border-width: .7px;
-	border-color: grey;
-	max-width: 40%;
-	margin-left: 30px;
-	margin-right: 30px;
+	border-width: .2px;
+	border-color: #d6d6d6;
+	max-width: 45%;
+	margin-left: 1em;
+	margin-right: 1em;
 
+}
+
+.img-circle {
+    border-radius: 50%;
+		width: 3em;
 }
 
 .biop {
@@ -117,7 +120,7 @@ font-style: italic;
 	padding-top: 5%;
 	padding-right: 5%;
 	padding-left: 1%;
-	padding-bottom: 5%;
+	padding-bottom: 1em;
 
 	font-weight: bold;
 	max-width: 70%;
@@ -1147,6 +1150,20 @@ font-style:italic, bold;
 
 	@media screen and (max-width: 736px) {
 
+		.quote {
+			font-family: 'Sorts Mill Goudy', serif;
+			padding-top: 5%;
+			padding-right: 5%;
+			padding-left: 1%;
+			padding-bottom: 1.3em;
+
+			font-weight: bold;
+			max-width: 70%;
+		 float: left;
+		  font-size: 5em;
+		  line-height: 1px;
+		}
+
 		.row > * {
 			padding: 0 0 0 1.25em;
 		}
@@ -1361,6 +1378,20 @@ font-style:italic, bold;
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.quote {
+			font-family: 'Sorts Mill Goudy', serif;
+			padding-top: 5%;
+			padding-right: 5%;
+			padding-left: 1%;
+			padding-bottom: 2.6em;
+
+			font-weight: bold;
+			max-width: 70%;
+		 float: left;
+		  font-size: 5em;
+		  line-height: 1px;
+		}
 
 		.row > * {
 			padding: 0 0 0 1.25em;
