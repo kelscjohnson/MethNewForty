@@ -29,7 +29,7 @@ text-align: right;
 
 .bannercaption {
 font-size: .7em;
-margin-left: 1.5em;
+margin-left: 1em;
 margin-top: 2%;
 font-style: italic;
 }
@@ -121,7 +121,7 @@ font-style: italic;
 .whitebutton {
 	color: white;
 	border-color: white;
-	border-radius: px;
+	border-radius: 1px;
 }
 
 .byline {
@@ -1432,8 +1432,9 @@ font-style:italic, bold;
 
 	@media screen and (max-width: 480px) {
 
-		#banner h1 {
-padding-left: 0;		}
+		.minor {
+			padding-left: 0;
+		max-width: 70%;	}
 
 
 		.quote {
@@ -3236,9 +3237,15 @@ padding-left: 0;		}
 		@media screen and (max-width: 980px) {
 
 			.tiles article {
-				width: 50% !important;
+				width: 50% !important
 			}
 
+						.white {
+			margin-left: 5em;
+			padding-right: 0;
+			padding-right: 1em;
+
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3250,9 +3257,9 @@ padding-left: 0;		}
 
 
 			.white {
-				padding-left: 1em;
+padding-left: 2em;
 padding-right: 0;
-font-size: 1em;
+margin-left: 0;
 
 }
 
@@ -3333,6 +3340,14 @@ font-size: 1em;
 		}
 
 		@media screen and (max-width: 480px) {
+
+
+						.white {
+			padding-left: 1em;
+			padding-right: 1em;
+			margin-left: 2em;
+
+			}
 
 			.tiles {
 				display: block;
