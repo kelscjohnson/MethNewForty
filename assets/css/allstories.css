@@ -977,6 +977,10 @@ font-style:italic, bold;
 
 	@media screen and (max-width: 980px) {
 
+		h3 {
+			max-width: 50%;
+		}
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -1191,6 +1195,11 @@ font-style:italic, bold;
 	}
 
 	@media screen and (max-width: 736px) {
+
+		h3 {
+			max-width: 50%;
+		}
+
 
 		.quote {
 			font-family: 'Sorts Mill Goudy', serif;
@@ -1421,6 +1430,11 @@ font-style:italic, bold;
 
 	@media screen and (max-width: 480px) {
 
+		h1 {
+			max-width: 70%;
+		}
+
+
 		.quote {
 			font-family: 'Sorts Mill Goudy', serif;
 			padding-top: 5%;
@@ -1649,6 +1663,12 @@ font-style:italic, bold;
 	}
 
 	@media screen and (max-width: 360px) {
+
+		h1 {
+			max-width: 60%;
+		}
+
+
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -3221,6 +3241,66 @@ font-style:italic, bold;
 		}
 
 		@media screen and (max-width: 736px) {
+
+			/*for bio boxes at the end of stories*/
+
+			.col-sm-6 {
+				background-color: #fbfbfb;
+				border-style: solid;
+				border-width: .05px;
+				border-color: #e7e7e7;
+				max-width: 100%;
+				margin-left: 1em;
+				margin-right: 1em;
+				margin-bottom: 1em;
+			}
+
+
+			.img-circle {
+			    border-radius: 50%;
+					width: 10em;
+					vertical-align:middle;
+					padding-bottom: 1em;
+					margin-left: .5em;
+					padding-right: 1em;
+			}
+
+			.biop {
+				font-size: .7em;
+				padding-left: .6em;
+				padding-right: 1.6em;
+				padding-top: 2em;
+
+			}
+
+			.contactinfo {
+				padding-left: .6em;
+
+						font-weight: 900;
+						font-size: .9em;
+						text-align: left;
+						padding-right: 1.4em;
+						padding-top: .5em;
+					}
+
+
+			.name {
+				font-size: 2em;
+				font-weight: 600;
+				/*padding-left: 1em;*/
+				line-height: .5em;
+				padding-bototm: 2em;
+			}
+
+			.title {
+				padding-top: 1em;
+				font-size: 1em;
+				font-weight: 800;
+				line-height: .2em;
+				padding-bottom: 2em;
+
+			}
+
 
 			.tiles article {
 				padding: 3em 1.5em 1em 1.5em ;
