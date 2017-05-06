@@ -159,12 +159,12 @@ font-style: italic;
 	padding-right: 5%;
 	padding-left: 1%;
 	padding-bottom: 1em;
-
 	font-weight: bold;
 	max-width: 70%;
  float: left;
   font-size: 5em;
   line-height: 1px;
+	text-shadow: 2px 2px #b9b6b6;
 }
 
 .quoteright {
@@ -250,13 +250,15 @@ font-weight: bold;
 		list-style: none;
 	}
 
-	blockquote, q {
+	blockquote {
 width: 100%;
 margin: 0;
-padding-left: 1%;
+padding-left: 1em;
+padding-right: 4em;
 float: left;
 font-size:150%;
-font-style:italic, bold;
+font-style:italic;
+font-weight: 550;
 }
 
 	}
@@ -1203,19 +1205,6 @@ font-style:italic, bold;
 		}
 
 
-		.quote {
-			font-family: 'Sorts Mill Goudy', serif;
-			padding-top: 5%;
-			padding-right: 5%;
-			padding-left: 1%;
-			padding-bottom: 1.3em;
-
-			font-weight: bold;
-			max-width: 70%;
-		 float: left;
-		  font-size: 5em;
-		  line-height: 1px;
-		}
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1432,23 +1421,24 @@ font-style:italic, bold;
 
 	@media screen and (max-width: 480px) {
 
-		#banner h1 {
-padding-left: 0;		}
+		#banner h1 .white {
+		padding-left: -20px;
+	}
 
 
-		.quote {
-			font-family: 'Sorts Mill Goudy', serif;
-			padding-top: 5%;
-			padding-right: 5%;
-			padding-left: 1%;
-			padding-bottom: 2.6em;
-
-			font-weight: bold;
-			max-width: 70%;
-		 float: left;
-		  font-size: 5em;
-		  line-height: 1px;
-		}
+	.quote {
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 5%;
+		padding-right: 5%;
+		padding-left: 1%;
+		padding-bottom: 3em;
+		font-weight: bold;
+		max-width: 70%;
+	 	float: left;
+	  font-size: 5em;
+	  line-height: 1px;
+		text-shadow: 2px 2px #b9b6b6;
+	}
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -2049,12 +2039,7 @@ padding-left: 0;		}
 		top: -0.5em;
 	}
 
-	blockquote {
-		border-left: solid 4px rgba(212, 212, 255, 0.1);
-		font-style: italic;
-		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
-	}
+
 
 	code {
 		background: rgba(212, 212, 255, 0.035);
@@ -2089,7 +2074,7 @@ padding-left: 0;		}
 		}
 
     hr.minor {
-			margin: 3em 0;
+			margin: 1em 0;
 		}
 
 	.align-left {
@@ -4064,7 +4049,7 @@ font-size: 1em;
 				}
 
         #banner.minor {
-					padding: 8em 0 4em 0 ;
+					padding: em 0 4em 0 ;
 				}
 
 		}
