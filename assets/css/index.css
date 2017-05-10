@@ -13,6 +13,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#main > * > .inner {
+	padding: 4em 0 2em 0 ;
+	margin: 0 auto;
+	max-width: 65em;
+	width: calc(100% - 6em);
+}
+
+#footer {
+
+	padding: 4em 0 0em 0 ;
+	margin: 0 auto;
+	max-width: 65em;
+	width: calc(100% - 6em);
+}
 
 /*Voices*/
 #Voices {
@@ -131,7 +145,6 @@ audio {
 
 .headerlogo {
 width: 30%;
-margin-top: -6em;
 margin-left: 8em;
 }
 
@@ -424,7 +437,9 @@ margin-left: 8em;
 		margin-left: 8.33333%;
 	}
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 2000px) {
+
+
 
 		.row > * {
 			padding: 0 0 0 2em;
@@ -1837,7 +1852,7 @@ margin-left: 8em;
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1500px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
