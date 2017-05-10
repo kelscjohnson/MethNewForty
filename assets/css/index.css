@@ -1,5 +1,11 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+/* bootstrap */
+@import url('bootstrap.css');
+/* bootstrap responsive */
+@import url('bootstrap-responsive.css');
+/* prettyPhoto */
+@import url('prettyPhoto.css');
 
 /*
 	Forty by HTML5 UP
@@ -7,6 +13,99 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/*Voices*/
+#Voices {
+	background-color: grey;
+}
+.max-img {
+ width: 50%;
+}
+
+audio {
+	width: 90%;
+	background: grey;
+}
+
+
+/*for bio boxes at the end of stories*/
+
+.col-sm-4 {
+	background-color: #fbfbfb;
+	border-style: solid;
+	border-width: .05px;
+	border-color: #e7e7e7;
+	max-width: 30%;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.col-sm-12 {
+	background-color: #fbfbfb;
+	border-style: solid;
+	border-width: .05px;
+	border-color: #e7e7e7;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1em;
+}
+
+.img-circle {
+    /*border-radius: 50%;*/
+		width: 20em;
+		vertical-align:middle;
+		padding-bottom: 1em;
+		margin-left: .5em;
+		padding-right: 1em;
+}
+
+.biop {
+	font-size: .7em;
+	padding-left: .6em;
+	padding-right: 1.6em;
+	padding-top: 2em;
+
+}
+
+.contactinfo {
+	padding-left: .6em;
+
+			font-weight: 900;
+			font-size: .9em;
+			text-align: left;
+			padding-right: 1.4em;
+			padding-top: .5em;
+		}
+
+
+.name {
+	font-size: 2em;
+	font-weight: 600;
+	/*padding-left: 1em;*/
+	line-height: .5em;
+	padding-bototm: 0em;
+}
+
+.title {
+	padding-top: 1em;
+	font-size: 1em;
+	font-weight: 800;
+	line-height: .2em;
+	padding-bottom: 2em;
+
+}
+
+/*for padding above the first heading*/
+
+.headline {
+	padding-top:1.4em;
+}
+
+.headlineabout {
+	padding-top: 0;
+}
 
 
 
@@ -756,6 +855,17 @@ margin-left: 8em;
 
 	@media screen and (max-width: 980px) {
 
+		.col-sm-4 {
+			background-color: #fbfbfb;
+			border-style: solid;
+			border-width: .05px;
+			border-color: #e7e7e7;
+			max-width: 50%;
+			margin-left: 1em;
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
+
 		.headerlogo {
 		width: 40%;
 		margin-left: 8em;
@@ -976,6 +1086,17 @@ margin-left: 8em;
 	}
 
 	@media screen and (max-width: 736px) {
+
+		.col-sm-4 {
+			background-color: #fbfbfb;
+			border-style: solid;
+			border-width: .05px;
+			border-color: #e7e7e7;
+			max-width: 70%;
+			margin-left: 1em;
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
 
 		.headerlogo {
 		width: 40%;
@@ -1199,6 +1320,17 @@ margin-left: 8em;
 
 	@media screen and (max-width: 480px) {
 
+		.col-sm-4 {
+			background-color: #fbfbfb;
+			border-style: solid;
+			border-width: .05px;
+			border-color: #e7e7e7;
+			min-width: 99%;
+			margin-left: 1em;
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
+
 
 		.headerlogo {
 		width: 70%;
@@ -1421,6 +1553,18 @@ margin-left: 8em;
 	}
 
 	@media screen and (max-width: 360px) {
+
+		.col-sm-4 {
+			background-color: #fbfbfb;
+			border-style: solid;
+			border-width: .05px;
+			border-color: #e7e7e7;
+			min-width: 99%;
+			margin-left: 1em;
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
+
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1777,6 +1921,18 @@ margin-left: 8em;
 
 	@media screen and (max-width: 736px) {
 
+		.col-sm-4 {
+			background-color: #fbfbfb;
+			border-style: solid;
+			border-width: .05px;
+			border-color: #e7e7e7;
+			min-width: 99%;
+			margin-left: 1em;
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
+
+
 		h1 {
 			font-size: 2em;
 		}
@@ -1951,6 +2107,17 @@ margin-left: 8em;
 		}
 
 	@media screen and (max-width: 736px) {
+
+		.col-sm-4 {
+			background-color: #fbfbfb;
+			border-style: solid;
+			border-width: .05px;
+			border-color: #e7e7e7;
+			max-width: 90%;
+			margin-left: 1em;
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
 
 		header.major > p br {
 			display: none;
@@ -2991,6 +3158,17 @@ margin-left: 8em;
 				width: 50% !important;
 			}
 
+			.col-sm-4 {
+				background-color: #fbfbfb;
+				border-style: solid;
+				border-width: .05px;
+				border-color: #e7e7e7;
+				max-width: 30%;
+				margin-left: 1em;
+				margin-right: 1em;
+				margin-bottom: 1em;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3285,9 +3463,9 @@ p.white {
 			z-index: 1001;
 			border: 0;
       color: white;
-			margin-left: 2em;
+			margin-left: 1em;
 			display: inline-block;
-			font-size: 0.8em;
+			font-size: 0.7em;
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em 0 0;
@@ -3361,16 +3539,16 @@ p.white {
 			#header nav a {
 				border: 0;
 				display: block;
-				font-size: 0.8em;
+				font-size: 0.7em;
 				height: inherit;
 				line-height: inherit;
-				padding: 0 0.75em;
+				padding: 0 1em;
 				position: relative;
 				vertical-align: middle;
 			}
 
 				#header nav a:last-child {
-					padding-right: 1.5em;
+					padding-right: 3em;
 				}
 
 				#header nav a[href="#menu"] {

@@ -3589,7 +3589,7 @@ font-size: 1em;
 			border: 0;
       color: white;
 			display: inline-block;
-			font-size: 0.8em;
+			font-size: 0.7em;
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
@@ -3663,7 +3663,7 @@ font-size: 1em;
 			#header nav a {
 				border: 0;
 				display: block;
-				font-size: 0.8em;
+				font-size: 0.7em;
 				height: inherit;
 				line-height: inherit;
 				padding: 0 0.75em;
@@ -3833,7 +3833,7 @@ font-size: 1em;
 		@media screen and (max-width: 480px) {
 
 			#header .logo span {
-				display: none;
+				/*display: none;*/
 			}
 
 			#header nav a[href="#menu"] {
