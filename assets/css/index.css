@@ -3023,9 +3023,11 @@ margin-left: 8em;
 
 
 #newContact {
-  background-image: url("../../images/pic01.jpg");
-  background-position:right;
-  /*background-color: #d4d4d4;*/
+  background: url("../../images/pic01.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 }
 
