@@ -29,8 +29,8 @@ text-align: right;
 
 .bannercaption {
 font-size: .7em;
-margin-left: 1.5em;
-margin-top: 2%;
+margin-left: 5%;
+margin-top: 3%;
 font-style: italic;
 }
 
@@ -47,6 +47,18 @@ font-style: italic;
 	margin-right: 1em;
 	margin-bottom: 1em;
 }
+
+.col-sm-12 {
+	background-color: #fbfbfb;
+	border-style: solid;
+	border-width: .05px;
+	border-color: #e7e7e7;
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 1em;
+}
+
 
 
 .img-circle {
@@ -2151,7 +2163,7 @@ font-weight: 550;
       }
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: .85em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
