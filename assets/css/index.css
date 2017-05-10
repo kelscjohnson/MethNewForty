@@ -13,6 +13,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 #main > * > .inner {
 	padding: 4em 0 2em 0 ;
 	margin: 0 auto;
@@ -30,11 +32,9 @@
 
 /*Voices*/
 #Voices {
-	background-color: grey;
+	background-color: rgb(238, 238, 238);
 }
-.max-img {
- width: 50%;
-}
+
 
 audio {
 	width: 90%;
@@ -44,14 +44,15 @@ audio {
 
 /*for bio boxes at the end of stories*/
 
+
 .col-sm-4 {
 	background-color: #fbfbfb;
 	border-style: solid;
 	border-width: .05px;
 	border-color: #e7e7e7;
-	max-width: 30%;
-	margin-left: 1em;
-	margin-right: 1em;
+	width:30%;
+	margin-left: 10%;
+	margin-right: 5%;
 	margin-bottom: 1em;
 }
 
@@ -68,20 +69,44 @@ audio {
 
 .img-circle {
     /*border-radius: 50%;*/
-		width: 20em;
+		width: 18em;
+		padding-top: 1.5em;
+		padding-bottom: 0em;
 		vertical-align:middle;
-		padding-bottom: 1em;
-		margin-left: .5em;
+		padding-left: .1em;
 		padding-right: 1em;
+
 }
 
-.biop {
+p.biop {
 	font-size: .7em;
-	padding-left: .6em;
-	padding-right: 1.6em;
-	padding-top: 2em;
+	line-height: 2em;
+	padding-right: 1em;
+	margin-bottom: 1em;
+}
+
+p.title {
+	/*font-weight: 800;*/
+	font-size: .7em;
+	line-height: 2em;
+	padding-right: 1em;
+	margin-bottom: 1em;
+}
+
+
+p.name {
+	font-size: 1em;
+	padding-top: .1em;
+	font-weight: 600;
+	line-height: 1em;
+	margin-bottom: 1em;
+	padding-right: 1em;
+
+
+	/*letter-spacing: .1em;*/
 
 }
+
 
 .contactinfo {
 	padding-left: .6em;
@@ -93,23 +118,6 @@ audio {
 			padding-top: .5em;
 		}
 
-
-.name {
-	font-size: 2em;
-	font-weight: 600;
-	/*padding-left: 1em;*/
-	line-height: .5em;
-	padding-bototm: 0em;
-}
-
-.title {
-	padding-top: 1em;
-	font-size: 1em;
-	font-weight: 800;
-	line-height: .2em;
-	padding-bottom: 2em;
-
-}
 
 /*for padding above the first heading*/
 
@@ -871,17 +879,30 @@ margin-left: 8em;
 
 	@media screen and (max-width: 980px) {
 
+
+
 		.col-sm-4 {
 			background-color: #fbfbfb;
 			border-style: solid;
 			border-width: .05px;
 			border-color: #e7e7e7;
-			max-width: 50%;
+			max-width: 80%;
 			margin-left: 1em;
 			margin-right: 1em;
 			margin-bottom: 1em;
 		}
 
+
+		.img-circle {
+		    /*border-radius: 50%;*/
+				width: 25em;
+				padding-top: 1.5em;
+				padding-bottom: 0em;
+				vertical-align:middle;
+				padding-left: .1em;
+				padding-right: 1em;
+
+		}
 		.headerlogo {
 		width: 40%;
 		margin-left: 8em;
@@ -2955,6 +2976,28 @@ margin-left: 8em;
 
 			@media screen and (max-width: 1280px) {
 
+				.col-sm-4 {
+					background-color: #fbfbfb;
+					border-style: solid;
+					border-width: .05px;
+					border-color: #e7e7e7;
+					max-width: 60%;
+					margin-left: 1em;
+					margin-right: 1em;
+					margin-bottom: 1em;
+				}
+
+				.img-circle {
+				    /*border-radius: 50%;*/
+						width: 24em;
+						padding-top: 1.5em;
+						padding-bottom: 0em;
+						vertical-align:middle;
+						padding-left: 5%;
+						padding-right: 5%;
+
+				}
+
 				input[type="submit"].next,
 				input[type="reset"].next,
 				input[type="button"].next,
@@ -3180,7 +3223,7 @@ margin-left: 8em;
 				border-style: solid;
 				border-width: .05px;
 				border-color: #e7e7e7;
-				max-width: 30%;
+				/*max-width: 30%;*/
 				margin-left: 1em;
 				margin-right: 1em;
 				margin-bottom: 1em;
@@ -3664,6 +3707,17 @@ p.white {
 
 		@media screen and (max-width: 1680px) {
 
+			.col-sm-4 {
+				background-color: #fbfbfb;
+				border-style: solid;
+				border-width: .05px;
+				border-color: #e7e7e7;
+				width: 30%;
+				margin-left: 1em;
+				margin-right: 1em;
+				margin-bottom: 1em;
+			}
+
 			#header nav a[href="#menu"] {
 				padding-right: 3.75em !important;
 			}
@@ -3684,9 +3738,22 @@ p.white {
 					padding-right: 4.5em !important;
 				}
 
+				.col-sm-4 {
+					background-color: #fbfbfb;
+					border-style: solid;
+					border-width: .05px;
+					border-color: #e7e7e7;
+					width:60%;
+					margin-left: 10%;
+					margin-right: 10%;
+					margin-bottom: 1em;
+				}
+
+
 		}
 
 		@media screen and (max-width: 736px) {
+
 
 			#header {
 				height: 2.75em;
@@ -4044,6 +4111,7 @@ p.white {
 		list-style: none;
 		padding-left: 0;
     text-align: left;
+		padding-bottom: 1em;
 	}
 
 
