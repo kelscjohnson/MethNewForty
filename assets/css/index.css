@@ -3537,7 +3537,7 @@ margin-left: 8em;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner3.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3708,7 +3708,7 @@ margin-left: 8em;
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				background-attachment: scroll;
+				background-attachment: fixed;
 			}
 
 		}
@@ -3811,6 +3811,10 @@ margin-left: 8em;
 
 #newContact {
   background-color: #cfcfcf;
+	background-attachment: fixed;
+	background-position: center;
+	backgroun
+	background-repeat: no-repeat;
 }
 
 

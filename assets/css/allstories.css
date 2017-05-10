@@ -2530,7 +2530,9 @@ font-weight: 550;
 		.image.left, .image.right {
 			max-width: 30%;
 		}
-
+.leftgraphic {
+	max-width: 50%;
+}
 			.image.left img, .image.right img {
 				width: 100%;
 			}
