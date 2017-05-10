@@ -48,6 +48,16 @@ font-style: italic;
 	margin-bottom: 1em;
 }
 
+.col-sm-12 {
+	background-color: #fbfbfb;
+	border-style: solid;
+	border-width: .05px;
+	border-color: #e7e7e7;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1em;
+}
 
 .img-circle {
     border-radius: 50%;
