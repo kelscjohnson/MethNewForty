@@ -15,6 +15,9 @@
 
 
 
+
+
+}
 #main > * > .inner {
 	padding: 4em 0 2em 0 ;
 	margin: 0 auto;
@@ -33,6 +36,8 @@
 /*Voices*/
 #Voices {
 	background-color: rgb(238, 238, 238);
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 
