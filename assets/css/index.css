@@ -1358,6 +1358,12 @@ margin-left: 8em;
 
 	@media screen and (max-width: 480px) {
 
+
+		h2 {max-width: 65%;
+
+
+		}
+
 		.col-sm-4 {
 			background-color: #fbfbfb;
 			border-style: solid;
