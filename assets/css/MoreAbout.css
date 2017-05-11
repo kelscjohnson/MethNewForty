@@ -61,12 +61,9 @@ font-style: italic;
 
 .img-circle {
     border-radius: 50%;
-		width: 10em;
+		width: 8em;
 		vertical-align:middle;
-		padding-bottom: 1em;
-		margin-left: .5em;
-		padding-right: 1em;
-}
+	}
 
 .biop {
 	font-size: .7em;
@@ -90,7 +87,7 @@ font-style: italic;
 .name {
 	font-size: 2em;
 	font-weight: 600;
-	/*padding-left: 1em;*/
+	padding-left: .5em;
 	line-height: .5em;
 	padding-bototm: 2em;
 }
@@ -3303,7 +3300,7 @@ margin-left: 0;
 				font-size: .7em;
 				padding-left: .6em;
 				padding-right: 1.6em;
-				padding-top: 2em;
+				padding-top: 3em;
 
 			}
 
